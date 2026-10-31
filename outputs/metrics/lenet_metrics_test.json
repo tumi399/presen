@@ -1,0 +1,35 @@
+{
+  "accuracy": 76.74,
+  "macro_precision": 76.885,
+  "macro_recall": 76.74,
+  "macro_f1": 76.71,
+  "per_class": {
+    "cats": {
+      "precision": 74.92,
+      "recall": 80.4,
+      "f1": 77.56,
+      "support": 2500
+    },
+    "dogs": {
+      "precision": 78.85,
+      "recall": 73.08,
+      "f1": 75.86,
+      "support": 2500
+    }
+  },
+  "confusion_matrix": [
+    [
+      2010,
+      490
+    ],
+    [
+      673,
+      1827
+    ]
+  ],
+  "class_names": [
+    "cats",
+    "dogs"
+  ],
+  "n_samples": 5000
+}
