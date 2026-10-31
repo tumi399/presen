@@ -1,0 +1,18 @@
+# ─── Core Deep Learning ───────────────────────────────────────────────────────
+# Cài PyTorch theo CUDA version của máy:
+# - Có CUDA GPU: vào https://pytorch.org/get-started/locally/ để chọn lệnh cài phù hợp
+# - Chỉ CPU:
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ─── Xử lý ảnh ────────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ─── Tính toán và vẽ biểu đồ ─────────────────────────────────────────────────
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+
+# ─── Jupyter Notebook ─────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
